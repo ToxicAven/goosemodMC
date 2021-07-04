@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "goosemodmc",
+  "version": "${version}",
+
+  "name": "GoosemodMC",
+  "description": "Installs Goosemod to all possible discord versions, because why not?",
+  "authors": [
+    "ToxicAven"
+  ],
+  "contact": {
+    "homepage": "https://ToxicAven.dev"
+  },
+
+  "license": "MIT",
+  "icon": "assets/goosemodder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.toxicaven.Goosemodder"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
